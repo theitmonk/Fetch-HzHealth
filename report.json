@@ -1,0 +1,310 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4",
+    "body": [
+        {
+            "type": "Image",
+            "url": "<<HorizonViewLogo>>",
+            "size": "Medium",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "TextBlock",
+            "text": "VDI3 Health Check",
+            "wrap": true,
+            "size": "Large",
+            "horizontalAlignment": "Center",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Time : <<Time>>",
+            "wrap": true,
+            "horizontalAlignment": "Right",
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "style": "<<GenaralStatusColor>>",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "<<GenaralStatusMessage>>",
+                    "wrap": true,
+                    "size": "Medium",
+                    "horizontalAlignment": "Center",
+                    "separator": true
+                }
+            ],
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "ConnBroker",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "<<ConnBroker>>",
+                                            "size": "Small",
+                                            "width": "15px"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Domain",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "<<Domain>>",
+                                            "size": "Small",
+                                            "width": "15px"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Composer",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "<<Composer>>",
+                                            "size": "Small",
+                                            "width": "15px"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "EventDb",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "<<EventDb>>",
+                                            "size": "Small",
+                                            "width": "15px"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Desktops",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "<<Desktops>>",
+                                            "size": "Small",
+                                            "width": "15px"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "VCenter",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "<<vCenter>>",
+                                            "size": "Small",
+                                            "width": "15px"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Hosts",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "<<Hosts>>",
+                                            "size": "Small",
+                                            "width": "15px"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Datastores",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "<<Datastores>>",
+                                            "size": "Small",
+                                            "width": "15px"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                }
+            ],
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "ActionSet",
+            "height": "stretch",
+            "horizontalAlignment": "Center",
+            "separator": true,
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Detailed View",
+                    "style": "positive",
+                    "url": "https://kyndryl-my.sharepoint.com/:u:/r/personal/ajith_sadanandan_kyndryl_com/Documents/TVG%20VDI%20HC%20Dev/<<DateTime>>.html?csf=1&web=1&e=6HlVSF"
+                }
+            ]
+        }
+    ]
+}
